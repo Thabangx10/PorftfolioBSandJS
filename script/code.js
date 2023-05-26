@@ -39,8 +39,6 @@ edu_contents.forEach((content) =>{
     `
 })
 
-
-
 // Education
 // let education = [
 //     {
@@ -115,3 +113,8 @@ edu_contents.forEach((content) =>{
 //     </div>
 //     `
 // })
+
+// Skills section
+
+// let skills = document.querySelector('section#skills .row:last-child')
+ 
