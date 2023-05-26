@@ -30,7 +30,7 @@ let edu_contents = [
     // My self taught Journey
     "My journey in the technology space started with my curiosity for innovation. I was self-taught and used various resources, such as YouTube, Sololearn, FreeCodeCamp, and Khan Academy to learn programming languages like C, SQL, Python, and MySQL, and to understand data and math concepts. As I progressed, I also participated in accelerated programs and boot camps, such as ALX Software Engineering and Data Science programs, and a 1-week boot camp at WeThinkCode, where I learned Python and unit testing in a peer-to-peer environment. These experiences have been invaluable in helping me to become a skilled software engineer, with a deep understanding of programming languages, data analysis, and problem-solving. My journey has been one of determination, self-motivation, and continuous learning. I hope that my experiences will inspire others who are also on a journey to learn and grow their skills in the technology space.",
 ]
-
+ 
 // Creating a loop to get our content
 
 edu_contents.forEach((content) =>{
@@ -38,6 +38,8 @@ edu_contents.forEach((content) =>{
     <p class='lead'>${content}</p>
     `
 })
+
+
 
 // Education
 // let education = [
