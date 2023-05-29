@@ -7,17 +7,17 @@ body{
     bottom: 0;
 }
 
- /* :root{
+ :root{
     --primary: rgb(0, 0, 0);
     --secondary: white;
     --alternative: hsla(144, 27%, 37%, .7);
     --awesomeColor: darkolivegreen;
     --green: green;
     --mainBox-shadow: -8px -3px 23px 5px rgba(105,96,96,0.75);
-} */
+}
 
 /* Education */
-/* .education {
+ .education {
     width: 40em;
     margin: 5px auto;
     padding: 10px;
@@ -58,12 +58,12 @@ body{
     border-radius: 50%;
     background-color: var(--awesomeColor);
     box-shadow: 10s .5vw 1vw rgba(90, 115, 132, 0.9);
-} */
+}
 
 /* Media query */
- /* @media screen and (width < 900px) {  */
+  @media (width < 900px) {  
     /* Education */
-     /* .education {
+    .education {
         width: 100%;
         display: flex;
         flex-flow: column wrap;
@@ -89,11 +89,11 @@ body{
     .card:nth-child(even)::after {
         content: none;
     }
-}  */
+}
 
 /* Skills */
 
-.progress-title {
+/* .progress-title {
     font-size: 16px;
     font-weight: 700;
     color: #333;
@@ -117,7 +117,7 @@ body{
 
 .list-unstyled{
     margin-right: 40px;
-  }
+  } */
 
 /* Testimonial */
 
@@ -187,6 +187,7 @@ body{
     padding: 20px;
     background: linear-gradient(45deg, #FE0061,#FFEB3B);
     transform: translateZ(100px);
+    overflow-y: auto;
 }
 
 .container .box .body .content div h3{
@@ -359,7 +360,7 @@ input[type=submit] {
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   padding: 20px;
 }
 
